@@ -87,13 +87,20 @@ df_first_half_top_scorers = df_first_half_points.groupby('player', as_index=Fals
 
 ## Visualization
 
-I made the 3 visualizations I ended up using in Plotnine. That code can be found in [data_wrangling.ipynb](/data_wrangling.ipynb)
+I made the 3 visualizations using in Plotnine in my notebook. That code can be found in [data_wrangling.ipynb](/data_wrangling.ipynb)
 
 <p align="center">
 <img src="plotnine_output/uconn_drought_scores.svg" width=30%>
 <img src="plotnine_output/from_ggplot_points.svg" width=30%>
 <img src="plotnine_output/top_scorers_first_half_grps.svg" width=30%>
 </p>
+
+I exported the [svg files](/plotnine_output/)
+Whatever
+<br><br><br>
+
+
+
 <p align="center">
     <img src="chart_pngs/uconn_drought_scores.png" width=30%>
     <img src="chart_pngs/nice_chart_for_ae.png" width=30%>
