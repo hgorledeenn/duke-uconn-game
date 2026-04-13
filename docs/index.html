@@ -41,6 +41,11 @@
       padding: 4em 0;
     }
 
+    .step_img {
+      max-width: 80%;
+      max-height: 80%;
+    }
+
     figure {
       margin: 0;
       padding-bottom: 1.2em;
@@ -65,10 +70,8 @@
     }
 
     .wide-video {
-      width: 800px;
-      height: 450px;
-      margin: auto;
-      align-content: center;
+      width: 100vw;
+      height: auto;
     }
 
     iframe,
@@ -143,56 +146,48 @@
     </div>
     <div class="steps-container">
       <div class="step" id="step-first">
-        <p>You will have to use VS Code's <strong>Live Server</strong> extension to do this locally. Once you've
-          installed it, right-click the filename on the left-panel and select "Open with Live Server".</p>
+        <p>90 seconds into the game, Duke leads UConn 4-2. The Huskies scored first in the game and maintained the
+          2-point advantage for 51 seconds before Duke tied it up then took the lead.</p>
       </div>
       <div class="step" id="step-second">
-        <p>To find more details about how this is done, check out <a
-            href="https://github.com/dkaoster/scrolly-video">scrolly-video</a>.</p>
+        <p>After 5 minutes of game play, the Blue Devils held a healthy lead over the Huskies. At 16-8, Duke had scored
+          twice as many points as their opponents and were maintaining comfortable control of the court.</p>
       </div>
       <div class="step" id="step-third">
-        <p>Step three.</p>
+        <p>For almost 5 minutes UConn did not score a single point, the
+          Huskies' longest drought of the game. Meanwhile, Duke increased their total from 26 to 40.
+          <img src="/chart_pngs/uconn_drought_scores.png">
+        </p>
       </div>
       <div class="step" id="step-fourth">
-        <p>Step four.</p>
+        <p>Duke entered halftime 15 points ahead of UConn, fueled by standout peformances from their two freshman
+          phenoms – twin brothers Cameron and Cayden Boozer.
+          <img src="/chart_pngs/top_scorers_ind_first_half.png">
+        </p>
       </div>
       <div class="step" id="step-fifth">
-        <p>Step five.</p>
+        <p>For the first time in more than 15 minutes of game time, UConn was within 10 points of Duke. With 12:20 left
+          in the game, it began to look like a closer game than Duke's first half performance would make it seem.</p>
+      </div>
+      <div class="step" id="step-sixth">
+        <p>As the game entered its last 4 minutes it was down to the wire. After over 30 minutes of game time UConn has
+          narrowed their deficit to 2 points again.</p>
+      </div>
+      <div class="step" id="step-seventh">
+        <p>The game was very nearly done and both teams were throwing all they could at the game. UConn's Silas Demary
+          Jr. went 1-for-2 on free throws, putting the team just one two-point shot away from tying the game.
+          <br>
+          <br>
+          <b>There are 10 seconds on the clock as Duke, in white, restarts play with a throw-in.</b>
+        </p>
       </div>
     </div>
   </section>
-  <div class="content">
-    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo
-      enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
-      ratione voluptatem sequi nesciunt.</p>
-    <figure>
-      <img
-        src="https://static01.nyt.com/images/2024/02/01/multimedia/01eu-hungary-orban-2-ghkw/01eu-hungary-orban-2-ghkw-superJumbo.jpg?quality=75&auto=webp">
-      <figcaption>This is an image caption</figcaption>
-    </figure>
-    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non
-      numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
-      veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
-    </p>
-  </div>
   <div class="full-width">
-    <figure>
-      <img
-        src="https://static01.nyt.com/images/2024/02/01/multimedia/01eu-hungary-orban-2-ghkw/01eu-hungary-orban-2-ghkw-superJumbo.jpg?quality=75&auto=webp">
-      <figcaption>This is another image caption, but this time it's a full-width image</figcaption>
-    </figure>
-  </div>
-  <div class="content">
-    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque
-      corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa
-      qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
-    <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio
-      cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor
-      repellendus.</p>
-  </div>
-  <div class="wide-video">
-    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/OCCPHNKURVk?si=w3s5JjA0Dn02zoQu&amp;start=181" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/OCCPHNKURVk?si=w3s5JjA0Dn02zoQu&amp;start=181"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
   <div class="footer">
     <div class="content">
@@ -220,7 +215,7 @@
     */
     new ScrollyVideo({
       scrollyVideoContainer: document.querySelector("#scrolly-video .sticky-thing"),
-      src: "videos/rough_cut_1.mp4",
+      src: "/../final_animations/rough_cut_8.mp4",
       full: true,
       // cover: true
     });
