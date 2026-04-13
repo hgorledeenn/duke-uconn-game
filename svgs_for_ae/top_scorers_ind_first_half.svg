@@ -41,6 +41,10 @@
       }
 
       .st8 {
+        fill: #d1d3d4;
+      }
+
+      .st9 {
         fill: #00539b;
       }
 
@@ -49,13 +53,8 @@
         font-weight: 700;
       }
 
-      .st6, .st9 {
+      .st6, .st10 {
         fill: #000e2f;
-      }
-
-      .st10 {
-        fill: #519461;
-        opacity: .3;
       }
 
       .st2 {
@@ -72,6 +71,7 @@
   </defs>
   <path class="st2" d="M128.23,303.21"/>
   <path class="st2" d="M158.26,311.16"/>
+  <rect class="st8" x="138.93" y="67.37" width="367.62" height="77.07"/>
   <path class="st2" d="M143.42,259.59"/>
   <path id="mb4c78974a2" class="st1" d="M143.42,67.37v201.94"/>
   <text class="st6" transform="translate(146.42 268.22)"><tspan x="0" y="0">0</tspan></text>
@@ -99,27 +99,24 @@
   <text class="st4" transform="translate(47.31 237.95)"><tspan x="0" y="0">Malachi Smith</tspan></text>
   <path class="st2" d="M138.55,199.49"/>
   <text class="st4" transform="translate(66.85 203.76)"><tspan x="0" y="0">Dame Sarr</tspan></text>
-  <rect class="st10" x="138.93" y="67.37" width="367.62" height="77.07"/>
   <path class="st2" d="M138.55,165.3"/>
   <text class="st4" transform="translate(46.57 169.57)"><tspan x="0" y="0">Tarris Reed Jr</tspan></text>
   <path class="st2" d="M138.55,123"/>
   <text class="st5" transform="translate(33.79 127.38)"><tspan x="0" y="0">Cayden Boozer</tspan></text>
   <path class="st2" d="M138.55,88.81"/>
   <text class="st5" transform="translate(24.03 93.08)"><tspan x="0" y="0">Cameron Boozer</tspan></text>
-  <path class="st9" d="M143.42,249.07v-30.77h171.58v30.77h-171.58Z"/>
-  <path class="st8" d="M143.42,214.88v-30.77h196.09v30.77h-196.09Z"/>
-  <path class="st9" d="M143.42,180.69v-30.77h294.13v30.77H143.42Z"/>
-  <g>
-    <path class="st8" d="M143.42,138.39v-30.77h318.64v30.77H143.42Z"/>
-    <path class="st8" d="M143.42,104.2v-30.77h343.15v30.77H143.42Z"/>
-  </g>
+  <path class="st10" d="M143.42,249.07v-30.77h171.58v30.77h-171.58Z"/>
+  <path class="st9" d="M143.42,214.88v-30.77h196.09v30.77h-196.09Z"/>
+  <path class="st10" d="M143.42,180.69v-30.77h294.13v30.77H143.42Z"/>
+  <path class="st9" d="M143.42,138.39v-30.77h318.64v30.77H143.42Z"/>
+  <path class="st9" d="M143.42,104.2v-30.77h343.15v30.77H143.42Z"/>
   <text class="st7" transform="translate(323.04 204.63)"><tspan x="0" y="0">8</tspan></text>
   <text class="st7" transform="translate(433.18 128.14)"><tspan x="0" y="0">13</tspan></text>
   <text class="st7" transform="translate(457.69 93.95)"><tspan x="0" y="0">14</tspan></text>
   <text class="st7" transform="translate(298.52 238.82)"><tspan x="0" y="0">7</tspan></text>
   <text class="st7" transform="translate(408.67 170.44)"><tspan x="0" y="0">12</tspan></text>
-  <path class="st9" d="M211.83,60.93v-24.12h58.45v24.12h-58.45Z"/>
+  <path class="st10" d="M211.83,60.93v-24.12h58.45v24.12h-58.45Z"/>
   <text class="st3" transform="translate(215.79 54.27)"><tspan x="0" y="0">UConn</tspan></text>
-  <path class="st8" d="M143.42,60.93v-24.12h58.45v24.12h-58.45Z"/>
+  <path class="st9" d="M143.42,60.93v-24.12h58.45v24.12h-58.45Z"/>
   <text class="st3" transform="translate(153.7 54.27)"><tspan x="0" y="0">Duke</tspan></text>
 </svg>
