@@ -26,7 +26,7 @@
     }
 
     .header {
-      padding: 3em 0;
+      padding: 1em 0;
     }
 
     a {
@@ -59,14 +59,17 @@
     }
 
     h1 {
-      font-family: 'Lora', Georgia, serif;
+      font-family: 'Times New Roman', Georgia, serif;
       font-weight: bold;
-      font-size: 3em;
-      line-height: 1.1;
+      font-size: 4em;
+      line-height: 1;
+      margin-bottom: 0.2em;
     }
 
     .subhead {
-      font-family: 'Lora', Georgia, serif;
+      font-family: 'Times New Roman', Georgia, serif;
+      font-size: 1.4em;
+
     }
 
     .wide-video {
@@ -135,15 +138,25 @@
     <div class="byline">
       <p>By <a href="https://hgorledeenn.github.io/" target="_blank">Holden Green</a></p>
     </div>
-    <p>The video below is kidnapped from <a
-        href="https://www.washingtonpost.com/sports/olympics/interactive/2022/how-yuzuru-hanyu-nearly-landed-quadruple-axel/">this
-        Washington Post story</a>, because it's a great example of how to break something into discrete steps and render
-      it out as a video. It's also the rare case that you aren't just using the video for a general vibe, and you need
-      to see the entire thing for it to make sense.</p>
-    <p>You can change the fonts by using <a href="https://fonts.google.com/">Google Fonts</a> and some CSS. Right now
-      we're using Lora for headlines and Georgia for body copy.</a></p>
-    <p>You will need <code><a href="scrolly-styles.css">scrolly-styles.css</a></code> for the page to work for you.</p>
+    <p>The mens basketball teams from Duke and the University of Connecticut faced off in the Elite Eight round of this
+      year's March Madness tournament. Duke, the Eastern Region's 1-seed, were the favorite heading into the matchup and
+      held a strong lead from the start.</p>
+    <p>But UConn never gave up, even as they faced a nearly 20-point deficit, and this game would prove pivotal in their
+      quest for the Championship.</p>
+    <p>See below how, point-by-point, UConn kept their heads in the game and pushed back against Duke's relentless
+      scoring.</p>
+    <hr>
+    <p>
+      <i>
+        The below line chart shows the point differential between the two teams during the game (Duke's score minus
+        UConn's score). The scoreboard in the upper left corner of the chart specifies each team's actual point totals
+        throughout the game.<br><br> <b>When the line goes closer to the top of the page, that means that Duke has a
+          larger lead over UConn. When the line goes lower on the chart, it means the two teams are closer to tied.</b>
+      </i>
+    </p>
+
   </div>
+
   <section id="scrolly-video" class="scrolly-container">
     <div class="sticky-thing">
     </div>
@@ -186,8 +199,9 @@
       </div>
     </div>
   </section>
-<div class="wide-video">
-    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/OCCPHNKURVk?si=w3s5JjA0Dn02zoQu&amp;start=181&autoplay=1"
+  <div class="wide-video">
+    <iframe width="100%" height="100%"
+      src="https://www.youtube.com/embed/OCCPHNKURVk?si=w3s5JjA0Dn02zoQu&amp;start=181&autoplay=1"
       title="YouTube video player" frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
