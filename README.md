@@ -2,10 +2,12 @@
 Created by **[Holden Green](https://hgorledeenn.github.io)** in April 2026 <br>
 Columbia Journalism School, Data Studio
 <br>
-<br><br>
->### This project represents a number of firsts for me – it's my first scrolytelling piece, my first time doing motion graphics/animation in Adobe After Effects and my first time embedding a YouTube video to a website. Below, see how I completed each step and how everything came together for the finished product.
+<br>
 
 ## Contents:
+
+*This project represents a number of firsts for me – it's my first scrolytelling piece, my first time doing motion graphics/animation in Adobe After Effects and my first time embedding a YouTube video to a website. Below, see how I completed each step and how everything came together for the finished product.*
+
 1. [The Project](#the-project)
 2. [Data Collection and Wrangling](#data-collection-and-wrangling)
 3. [Visualization](#visualization)
@@ -84,6 +86,12 @@ df_first_half_top_scorers = df_first_half_points.groupby('player', as_index=Fals
     })
 ```
 
+### Exploratory Data Analysis
+
+I did lots of EDA during this project. Beyond just finding interesting stats (like the fact that, in the 1st half, the Boozer twins alone [scored 27 points](chart_pngs/top_scorers_ind_first_half.png) for Duke while the entire UConn team only had 29 points), I looked at the progress of the game overall and tried to identify which moments were indicitave of one team's performance or a momentum shift in the game.
+
+I ultimately settled on 8 game moments – 4 from each half – as important to highlight for someoene to fully understand the course of the game.
+
 <br>
 
 ## Visualization
@@ -94,56 +102,50 @@ A few important changes I made were:
 - Making chart designs minimal so as to the viewers' attention the most important visual elements
 - Keeping colors and fonts consistent across charts to increase visual cohesion in the finished product
 - Adding range highlights to subtly direct attention without distracting from the chart content
-<br><br><br>
-![/readme_assets/chart_diffs.png](/readme_assets/chart_diffs.png)
+<br>
+
+><h3 align="left">
+>The Plotnine <i>(rough)</i> and Illustrator <i>(finished)</i> exports of the three charts I made
+></h3>
+><p align="left">
+><img src="readme_assets/chart_diffs.png" width=75%>
+></p>
 
 <br>
 
 ## Animation
 
-This project represented many firsts for me. Most notably, though, this was my first time using Adobe After Effects.
+This project represented many firsts for me. Most notably, though, this was my first time using Adobe After Effects. I used AE in order to animate my main line chart so that the data would appear as the viewer scrolls through the page. This allowed me to break down what might be a confusing chart (of point *differences* over time during the game) and direct the viewers' attention to the important parts of the game I was highlighting.
 
+The process of animating mostly involved assigned keyframes to different elements across the timeline. But, before I animated, I did a lot planning (and a *lot* of math) to determine where each keyframe should be for each of the elements.
 
-- After Effects
-- First time doing that
-- Applications for vertical video
-- Content Management/math to figure out how to order animation
+I also made a detailed content management spreadsheet to track where each scrollytelling break should be (so that the boxes line up with the breaks in the animation) and what content I would include at each point. This pre-planning ended up being incredibly helpful as I completed the actual animation, and I referred to my detailed CMS sheet continuously during the process.
 
+><h3 align="left">
+>My CMS spreadsheet for this project
+></h3>
+><p align="left">
+><img src="readme_assets/cms_sheet.png" width=75%>
+></p>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+I also learned how to make auto-updating number displays in After Effects, which I used to make the scoreboard animation on the upper-left corner of the point differences chart.
 
 <br>
 
 ## Web Design
 
-- Scrollytelling
-- Making it responsive
-- Embedding a youtube video
+This project was hosted online with the use of a template provided by my professor, though I made quite a few changes in order to best display my content.
+
+The template helped with some of the basics of a scrollytelling website, but I made modifications to the timing of the scrollytelling elements and the design of the text highlights to work better (both in design and in matching the speed of the animation).
+
+This project was also my first time embedding a YouTube video, which I did to make the ending of the game, in which UConn scored a last-second 3-point shot to win, even more palpable to the viewer.
 
 <br>
 
 ## What I Would Change For Next Time
 
-- 
+Although I am proud of the project and all the skills I drew upon to complete it, there are definitely things I would do differently for similar projects in the future.
+
+Most notably, the scrollytelling animation technically works on both desktop and mobile, but it is not a truly responsive design. While it functions and will dispaly at least somewhat well on both platforms, for future project, when I had more time or technical support, I would work to make sure the content was displayed clearly on any device, regardless of size or aspect ratio.
+
+I also did not have the time to really perfect how the scrollytelling boxes appear on the site – especially the ones with charts inside of them – and would work on improving that in future projects as well.
